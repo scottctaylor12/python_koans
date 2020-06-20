@@ -15,7 +15,6 @@ class AboutTuples(Koan):
             count_of_three[2] = "three"
         except TypeError as ex:
             msg = ex.args[0]
-            print(msg)
 
         # Note, assertRegex() uses regular expression pattern matching,
         # so you don't have to copy the whole message.
